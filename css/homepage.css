@@ -1,0 +1,63 @@
+
+/* Navabar */ 
+
+header{
+   background-image: url(../img/header.jpg);
+   background-size: cover;
+   /* height:70vh; */
+   position: relative;
+   background-position-x: center;
+   background-position-y: center;
+}
+
+nav{
+    background-color:#000000ac;
+}
+
+.header-content{
+    height: 29rem;
+    background-color:#000000ac ;
+}
+
+/* Corps de la page */
+
+body{
+    font-family: oswald;
+}
+
+h2 {
+font-family: couregette;
+}
+
+/* section */ 
+
+
+
+
+
+
+
+
+
+
+
+
+/* image dessert section */ 
+
+.img1{
+    height: 150px;
+    width: 250px;
+    overflow: hidden;
+}
+
+.img2{
+    height: 150px;
+    width: 250px;
+    overflow: hidden;
+}
+
+.img3{
+    height: 150px;
+    width: 250px;
+    overflow: hidden;
+}

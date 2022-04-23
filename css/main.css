@@ -1,0 +1,20 @@
+@font-face {
+  font-family: courgette;
+  src: url(../font/Courgette-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: oswald;
+  src: url(../font/Oswald/static/Oswald-Bold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: oswald;
+}
+
+h1,h2{
+    font-family: courgette;
+}

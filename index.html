@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuisine</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/homepage.css">
+    <script src="https://kit.fontawesome.com/8e1c62a1dd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-light border-2">
+            <div class="container-fluid">
+                <h2>
+                    <a class="navbar-brand h2" href="#">Cuiz'ine</a>
+                </h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav font-size-smaller">
+                        <a class=" nav-link active" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link" href="./Team.html">Equipe</a>
+                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="./Team.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="header-content container-fluid">
+            <div class="row">
+                <div class="col-4 offset-4 d-flex flex-column align-items-center mt-4">
+                    <img class="w-25" src="./img/logo_square_white.png" />
+                    <h1 class="text-white text-center">Cuiz'ine</h1>
+                    <h2 class="text-white text-center">le mag cuisine</h2>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main class="container">
+        <h2 class="text-center">Derniers articles</h2>
+        <div class="row">
+
+            <section id="articles" class="col-12 col-lg-9">
+                <div class="row my-1">
+                    <img src="./img/articles/metro/metro-header.jpg" class="col-12 col-md-4 img-fluid"
+                        alt="Photo du premier articles : Crêpe suzette dans une assiette" />
+                    <article class="col-12 col-md-8">
+                        <h4>Le metro dessert</h4>
+                        <p>Germain est ferrovispathe(ndlr: fan de train), son fils Maxime est
+                            patissier.
+                            Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du
+                            métro
+                            parisien. A voir aboslument, mais qu'en est-il d'y aller pour manger ? Clémentine
+                            entre
+                            gare
+                            et
+                            nous donne son avis </p>
+                    </article>
+                </div>
+
+
+                <div class="row my-1">
+
+                    <img src="./img/articles/suzette/suzette-small.jpg" class="col-12 col-md-4 img-fluid"
+                        alt="Photo du premier articles : Crêpe suzette dans une assiette" />
+
+                    <article class="col-12 col-md-8">
+                        <h4>Chez Suzette, la nouvelle creperie qui fait parler d'elle</h4>
+                        <p>La franchise "Chez Suzette" qui fait un carton chez les
+                            bretons ouvre
+                            son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a
+                            testépour vous les
+                            saveurs sucrés, salés au froment ou au sarrazin! </p>
+                    </article>
+
+                </div>
+
+                <div class="row my-1">
+
+                    <img src="./img/articles/vitaly/vitaly-header.jpg" class="col-12 col-md-4 img-fluid"
+                        alt="Photo du premier articles : Crêpe suzette dans une assiette" />
+
+
+                    <article class="col-12 col-md-8">
+                        <h4>Vitaly, le végan italien</h4>
+                        <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils
+                            l'ont
+                            fait,
+                            les saveurs de l'Italie a portée des herbivores. Cette fois, c'est moi Tony qui vais
+                            le
+                            tester
+                            pour vous </p>
+                    </article>
+                    
+                </div>
+            </section>
+
+
+
+            <section id="home-form" class="d-none d-lg-block col-lg-3">
+                <div id="search" class="d-grid my-3">
+                    <label for="search" class="form-label">Recherche</label>
+                    <input type="text" class="form-control" id="search" aria-describedby="emailHelp">
+                    <button type="submit" class="btn btn-outline-dark">Ok</button>
+                </div>
+
+                <div id="newsletter" class="d-grid my-3">
+                    <label for="newsletter" class="form-label">newsletter</label>
+                    <input type="email" class="form-control" id="newsletter" aria-describedby="emailHelp">
+                    <button type="submit" class="btn btn-outline-dark">s'incrire</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+
+    <footer class="bg-dark text-center text-white ">
+
+
+        <div class="container p-4">
+            <section class="">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Catégories</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Revus</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Recettes</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Découverte</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Archives</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">2019</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">2018</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">2017</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </section>
+            <div class="container p-4 pb-0">
+
+                <section class="mb-4">
+
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!"
+                        role="button"><i class="fab fa-facebook-f"></i></a>
+
+
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!"
+                        role="button"><i class="fab fa-twitter"></i></a>
+
+
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                        role="button"><i class="fab fa-google"></i></a>
+
+
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                        role="button"><i class="fab fa-instagram"></i></a>
+
+
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!"
+                        role="button"><i class="fab fa-linkedin-in"></i></a>
+
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!"
+                        role="button"><i class="fab fa-github"></i></a>
+                </section>
+
+            </div>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/"></a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
